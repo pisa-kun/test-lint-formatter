@@ -1,0 +1,9 @@
+{
+    "python.linting.enabled": true, // Lintの有効化
+    "python.linting.pylintEnabled": true, // pylint
+    "python.linting.lintOnSave": true, // ファイル保存時のlint実行
+    "python.formatting.provider": "autopep8", // フォーマッタにautopep8
+    "[python]": {
+        "editor.formatOnSave": true, // ファイル保存時にフォーマッタ実行
+    },
+}
